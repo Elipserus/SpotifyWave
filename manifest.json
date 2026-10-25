@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "io.github.elipserus.spotify-wave",
+  "name": "Spotify Wave",
+  "version": "1.0.0",
+  "author": "Elipserus",
+  "license": "MIT",
+  "description": "Spotify en la barra como una onda de reproducción; al pasar el ratón, una tarjeta con la portada, la canción, el progreso y los controles.",
+  "kinds": [
+    "bar-widget"
+  ],
+  "entryPoints": {
+    "barWidget": "BarWidget.qml"
+  },
+  "barWidget": {
+    "displayName": "Spotify",
+    "description": "Onda de reproducción de Spotify; al pasar el ratón muestra la canción y los controles.",
+    "category": "Media",
+    "defaultSection": "center",
+    "allowMultiple": false
+  }
+}
